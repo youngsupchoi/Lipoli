@@ -25,4 +25,9 @@ module.exports = {
     left: 10,
     alignItems: 'center',
   },
+  row: {
+    flexDirection: 'row',
+    marginVertical: 10,
+    alignItems: 'center',
+  },
 };

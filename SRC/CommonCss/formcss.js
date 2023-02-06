@@ -25,6 +25,7 @@ module.exports = {
 
     marginVertical: 10,
   },
+
   formbtn: {
     color: 'black',
     backgroundColor: 'white',
@@ -41,6 +42,17 @@ module.exports = {
   },
 
   formTextLinkCenter: {
+    color: 'gray',
+    textAlign: 'center',
+  },
+
+  formHead2: {
+    fontSize: 15,
+    color: 'white',
+    textAlign: 'center',
+  },
+  formHead3: {
+    fontSize: 15,
     color: 'gray',
     textAlign: 'center',
   },

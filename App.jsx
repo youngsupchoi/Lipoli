@@ -33,11 +33,11 @@ const app = () => {
         <Stack.Screen name="Signup_AccountCreated" component={Signup_AccountCreated} />
 
         <Stack.Screen name="ForgotPassword_AccountRecovered" component={ForgotPassword_AccountRecovered} />
-        <Stack.Screen name="ForgotPassword_ChoosePassword" component={ForgotPassWord_ChoosePassword} />
+        <Stack.Screen name="ForgotPassWord_ChoosePassword" component={ForgotPassWord_ChoosePassword} />
         <Stack.Screen name="ForgotPassword_EnterEmail" component={ForgotPassword_EnterEmail} />
         <Stack.Screen name="ForgotPassword_EnterVerificationCode" component={ForgotPassword_EnterVerificationCode} />
 
-        <Stack.Screen name="MainPage" component={Mainpage} />
+        <Stack.Screen name="Mainpage" component={Mainpage} />
       </Stack.Navigator>
     </NavigationContainer>
   );

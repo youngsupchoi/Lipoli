@@ -32,7 +32,7 @@ const Login = ({navigation}) => {
         Forgot Password?
       </Text>
 
-      <Text style={formbtn} onPress={() => navigation.navigate('MainPage')}>
+      <Text style={formbtn} onPress={() => navigation.navigate('Mainpage')}>
         Submit
       </Text>
       <View style={hr80}></View>
