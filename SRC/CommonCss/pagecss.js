@@ -30,4 +30,13 @@ module.exports = {
     marginVertical: 10,
     alignItems: 'center',
   },
+  icon1: {
+    color: 'white',
+    fontSize: 30,
+  },
+  logo2: {
+    height: 30,
+    resizeMode: 'contain',
+    width: 100,
+  },
 };
