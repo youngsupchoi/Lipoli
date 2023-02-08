@@ -43,7 +43,7 @@ const All_Chats = ({navigation}) => {
     },
   ];
   const [keyword, setKeyword] = React.useState('');
-  console.log(keyword);
+
   return (
     <ScrollView style={styles.container}>
       <Ionicons
