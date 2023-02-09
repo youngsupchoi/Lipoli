@@ -6,22 +6,23 @@ import Bottomnavbar from '../../Components/Bottomnavbar';
 import TopNavbar from '../../Components/TopNavbar';
 import FollowersRandomPost from '../../Components/FollowersRandomPost';
 
-const Mainpage = ({navigation}) => {
+const NotioficationPage = ({navigation}) => {
   return (
     <View style={styles.container}>
       <StatusBar />
-      <TopNavbar navigation={navigation} page={'Mainpage'} />
-      <Bottomnavbar navigation={navigation} page={'Mainpage'} />
-      <FollowersRandomPost />
+      <TopNavbar navigation={navigation} />
+      <Text style={formHead}>NotioficationPage</Text>
+      <Bottomnavbar navigation={navigation} page={'NotioficationPage'} />
     </View>
   );
 };
 
-export default Mainpage;
+export default NotioficationPage;
 
 const styles = StyleSheet.create({
   container: {
     width: '100%',
+    height: '100%',
     backgroundColor: 'black',
     paddingVertical: 50,
   },

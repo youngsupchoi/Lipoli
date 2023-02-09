@@ -5,17 +5,19 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import React from 'react';
 import {icon1, logo2} from '../CommonCss/pagecss';
 
-const TopNavbar = ({navigation}) => {
+const TopNavbar = ({navigation, page}) => {
   return (
     <View style={styles.container}>
       <Image source={logo} style={logo2} />
-      <Ionicons
-        onPress={() => navigation.navigate('All_Chats')}
-        name="chatbubble"
-        size={24}
-        color="black"
-        style={icon1}
-      />
+      {page === 'Mainpage' && (
+        <Ionicons
+          onPress={() => navigation.navigate('All_Chats')}
+          name="chatbubble"
+          size={24}
+          color="black"
+          style={icon1}
+        />
+      )}
     </View>
   );
 };

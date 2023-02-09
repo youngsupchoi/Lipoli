@@ -3,8 +3,6 @@ import React, {useState} from 'react';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 const Post_Big_Card = ({post_pic, profile_pic, username, likes, comments}) => {
-  console.log(comments);
-
   const [isliked, setIsliked] = useState(false);
   const [showComment, setShowComment] = useState(false);
   return (

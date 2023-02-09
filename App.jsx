@@ -14,6 +14,9 @@ import ForgotPassword_EnterEmail from './SRC/Screens/LoginSingup/ForgotPassword/
 import ForgotPassword_EnterVerificationCode from './SRC/Screens/LoginSingup/ForgotPassword/ForgotPassword_EnterVerificationCode';
 import Mainpage from './SRC/Screens/Mainpage/Mainpage';
 import All_Chats from './SRC/Screens/ChatSection/All_Chats';
+import MyUserProfile from './SRC/Screens/Profile/MyUserProfile';
+import SearchUserPage from './SRC/Screens/Mainpage/SearchUserPage';
+import NotioficationPage from './SRC/Screens/Mainpage/NotioficationPage';
 
 const Stack = createNativeStackNavigator();
 
@@ -44,6 +47,14 @@ const app = () => {
           animation: 'slide_from_bottom'
         }}
         />
+        <Stack.Screen name="SearchUserPage" component={SearchUserPage} 
+        options={{
+          animation: 'slide_from_bottom'
+        }}
+        />
+        <Stack.Screen name="NotificationPage" component={NotioficationPage} 
+        />
+        <Stack.Screen name="MyUserProfile" component={MyUserProfile} />
       </Stack.Navigator>
     </NavigationContainer>
   );
