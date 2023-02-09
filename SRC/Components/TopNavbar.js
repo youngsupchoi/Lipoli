@@ -12,7 +12,16 @@ const TopNavbar = ({navigation, page}) => {
       {page === 'Mainpage' && (
         <Ionicons
           onPress={() => navigation.navigate('All_Chats')}
-          name="chatbubble"
+          name="chatbubbles"
+          size={24}
+          color="black"
+          style={icon1}
+        />
+      )}
+      {page === 'MyUserProfile' && (
+        <Ionicons
+          onPress={() => navigation.navigate('Settings1')}
+          name="md-settings-sharp"
           size={24}
           color="black"
           style={icon1}

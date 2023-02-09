@@ -17,6 +17,7 @@ import All_Chats from './SRC/Screens/ChatSection/All_Chats';
 import MyUserProfile from './SRC/Screens/Profile/MyUserProfile';
 import SearchUserPage from './SRC/Screens/Mainpage/SearchUserPage';
 import NotioficationPage from './SRC/Screens/Mainpage/NotioficationPage';
+import Settings1 from './SRC/Settings/Settings1' ;
 
 const Stack = createNativeStackNavigator();
 
@@ -55,6 +56,8 @@ const app = () => {
         <Stack.Screen name="NotificationPage" component={NotioficationPage} 
         />
         <Stack.Screen name="MyUserProfile" component={MyUserProfile} />
+        <Stack.Screen name="Settings1" component={Settings1
+        } />
       </Stack.Navigator>
     </NavigationContainer>
   );
